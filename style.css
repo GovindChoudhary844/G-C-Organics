@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navtop
+{
+    height: 20px;
+    width: 100%;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover
+{
+    color: blue;
+}
+.nav-link
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.nav-link:hover
+{
+    color: black;
+}
+.search
+{
+    height: 40px;
+    width: 90%;
+    border-radius: 60px;
+    border: 2px solid rgb(0, 119, 255);
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    margin-right: -35px;
+}
+.btn0
+{
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-weight: 700;
+}
+            /* contant */
+.main
+{
+    background: url(Images/Home\ top.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 650px;
+    width: 100%;
+    color: white;
+}
+.nat
+{
+    box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+}
+.main h1
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1
+{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover
+{
+    background-color: rgb(200, 14, 70) ;
+    transition: 0.5s;
+}
+.mainicon img
+{
+    height: 130px;
+    width: 130px;
+}
+
+        /* trending section  */
+.trending h1
+{
+    font-weight: 700;
+}
+.card:hover
+{
+    box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -3px 41px -7px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+            /* Home Bottom */
+.apple
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(Images/Home\ bottom.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1
+{
+    font-family: 'Lobster', cursive;
+}
+
+            /* footer */
+.footer
+{
+    background-color: black;
+    color: white;
+}
+.btn2
+{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    font-weight: 700;
+    border: 2px solid white;
+}
+.footer input
+{
+    height: 45px;
+    width: 55%;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer p
+{
+    margin: 0;
+}
+.footer i
+{
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+                /* Tablet */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .main
+    {
+        height: 500px;
+    }
+    .main h1
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }   
+    .about h5
+    {
+        font-size: 20px;
+    }
+    .about p
+    {
+        font-size: 14px;
+    }
+    .footer h5
+    {
+        font-size: 17px;
+    }
+    .footer p
+    {
+        font-size: 13px;
+    }
+    .footer i
+    {
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding-right: 5px;
+    }
+}
+@media only screen and (min-width: 150px) and (max-width: 575px) {
+    .main
+    {
+        height: 500px;
+    }
+    .main h1
+    {
+        font-size: 1.5rem;
+        font-weight: 700;
+    } 
+    .mainicon img
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .btn1
+    {
+        height: 45px;
+        width: 40%;
+    }
+    .about p
+    {
+        margin-bottom: 40px;
+    }
+    .card
+    {
+        margin-top: -80px;
+    }
+
+}
